@@ -1,0 +1,11 @@
+venv/
+data/
+*.csv
+*.txt.bz2
+*.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.env
+.dvc/tmp
+.dvc/cache
+EOF

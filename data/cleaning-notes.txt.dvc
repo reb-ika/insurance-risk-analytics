@@ -1,0 +1,5 @@
+outs:
+- md5: ad2b2ca62c4a779cd1e19f5394da0fea
+  size: 39
+  hash: md5
+  path: cleaning-notes.txt

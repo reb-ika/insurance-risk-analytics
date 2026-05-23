@@ -1,0 +1,10 @@
+# Create a DVC pipeline file
+
+stages:
+  prepare:
+    cmd: python src/data_loader.py
+    deps:
+      - data/MachineLearningRating_v3.txt
+      - src/data_loader.py
+    outs:
+      - data/cleaned_data.txt

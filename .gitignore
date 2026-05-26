@@ -1,5 +1,5 @@
 venv/
-data/
+
 *.csv
 *.txt.bz2
 *.ipynb_checkpoints/

@@ -128,3 +128,10 @@ def print_result(hypothesis: str, result: dict) -> None:
         print(f"  ✅ SIGNIFICANT — Reject H0 (p < 0.05)")
     else:
         print(f"  ❌ NOT SIGNIFICANT — Fail to Reject H0 (p >= 0.05)")
+def label_sentiment(score: float) -> str:
+    """Convert score to positive/neutral/negative label."""
+    if score >= 0.05:
+        return "positive"
+    elif score <= -0.05:
+        return "negative"
+    return "neutral"
